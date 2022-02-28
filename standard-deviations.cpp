@@ -15,7 +15,6 @@ double mean(const vector<double> &scores)
 
     return mean;
 }
-// WORKS
 
 // find the standard deviations
 // using the formula for population standard derivation from:
