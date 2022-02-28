@@ -56,6 +56,9 @@ int main()
     cout
         << "Standard Deviation: "
         << find_std_dev(scores, scores_mean)
+        << endl
+        << "Mean: "
+        << scores_mean
         << endl;
 
     return 0;
