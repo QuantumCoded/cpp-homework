@@ -3,7 +3,6 @@
 #include <vector>
 #include <numeric>
 #include <math.h>
-#include <stdio.h>
 
 using namespace std;
 
