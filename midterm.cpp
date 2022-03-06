@@ -28,7 +28,7 @@ int main() {
 
     // get price routine
     while (1) {
-        cout << "Please input price of vehicle: ";
+        cout << "Please input the price of vehicle: ";
         cin >> price;
 
         if (price > 50.0 && price < 50000.0) break;
@@ -37,7 +37,7 @@ int main() {
 
     // get trade in routine
     while (1) {
-        cout << "Please input trade in value: ";
+        cout << "Please input the trade in value: ";
         cin >> tradeIn;
 
         if (tradeIn >= 0.0 && tradeIn < price) break;
