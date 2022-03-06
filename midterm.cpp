@@ -28,7 +28,7 @@ int main() {
 
     // get price routine
     while (1) {
-        cout << "Price of vehicle: ";
+        cout << "Please input price of vehicle: ";
         cin >> price;
 
         if (price > 50.0 && price < 50000.0) break;
@@ -37,7 +37,7 @@ int main() {
 
     // get trade in routine
     while (1) {
-        cout << "Trade in value: ";
+        cout << "Please input trade in value: ";
         cin >> tradeIn;
 
         if (tradeIn >= 0.0 && tradeIn < price) break;
@@ -46,7 +46,7 @@ int main() {
 
     // get down payment routine
     while (1) {
-        cout << "Down payment: ";
+        cout << "Please input the down payment: ";
         cin >> downPayment;
 
         if (downPayment >= 0.0 && downPayment < price - tradeIn) break;
@@ -55,7 +55,7 @@ int main() {
 
     // get annual interest rate routine
     while (1) {
-        cout << "Annual interest rate: ";
+        cout << "Please input the annual interest rate: ";
         cin >> annualIntRate;
 
         if (annualIntRate >= 0.0 && annualIntRate < 0.5) break;
